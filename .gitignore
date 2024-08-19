@@ -46,4 +46,9 @@ backend/.env
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 >>>>>>> 5005305 (Initialize project using Create React App)
+=======
+src/logo.svg
+src/logo.svg
+>>>>>>> 46a6d62 (commit)
