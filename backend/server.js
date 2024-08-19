@@ -1,12 +1,15 @@
 const express = require("express");
 const cors = require("cors");
+const bodyParser = require("body-parser");
 const connectDB = require("./database/connect");
 const Card = require("./database/models/request");
 
 const app = express();
 
 app.use(cors({ origin: "http://localhost:3000" }));
+
 app.use(express.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 const PORT = process.env.PORT || 5000;
 
